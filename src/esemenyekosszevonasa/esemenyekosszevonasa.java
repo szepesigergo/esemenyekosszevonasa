@@ -7,7 +7,11 @@ public class esemenyekosszevonasa extends javax.swing.JFrame {
     
     public esemenyekosszevonasa() {
         initComponents();
+        osszeg = 0;
+        jTextField1
+    
     }
+    
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
