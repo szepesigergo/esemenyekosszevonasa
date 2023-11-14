@@ -1,6 +1,8 @@
 
 package esemenyekosszevonasa;
 
+import javax.swing.JTextField;
+
 public class esemenyekosszevonasa extends javax.swing.JFrame {
 
     int osszeg;
@@ -8,8 +10,12 @@ public class esemenyekosszevonasa extends javax.swing.JFrame {
     public esemenyekosszevonasa() {
         initComponents();
         osszeg = 0;
-        jTextField1
+        frissit();
     
+    }
+
+    private JTextField frissit() {
+        return jTextField1;
     }
     
 
